@@ -1,4 +1,4 @@
-package mackenzie.lab1.src;
+package mackenzie.lab1a.src;
 
 import java.util.Scanner;
 

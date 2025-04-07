@@ -1,4 +1,4 @@
-package mackenzie.lab1.src;
+package mackenzie.lab1a.src;
 
 public class Ex5 {
     public static int min(int a, int b) {

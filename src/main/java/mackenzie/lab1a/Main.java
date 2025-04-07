@@ -1,7 +1,7 @@
-package mackenzie.lab1;
+package mackenzie.lab1a;
 
 import java.util.Scanner;
-import mackenzie.lab1.src.*;
+import mackenzie.lab1a.src.*;
 
 public class Main {
     public static void main(String[] args) {
