@@ -14,6 +14,8 @@ public class Main {
             System.out.println("2 para Exercício 2.");
             System.out.println("3 para Exercício 3.");
             System.out.println("4 para Exercício 4.");
+            System.out.println("5 para Exercício 5.");
+            System.out.println("6 para Exercício 6.");
             System.out.print("Escolha uma opção: ");
             escolha = scanner.nextInt();
 
@@ -22,6 +24,8 @@ public class Main {
                 case 2 -> Ex2.executar();
                 case 3 -> Ex3.executar();
                 case 4 -> Ex4.executar();
+                case 5 -> Ex5.executar();
+                case 6 -> Ex6.executar();
                 case 0 -> System.out.println("Saindo...");
                 default -> System.out.println("Opção inválida.");
             }
