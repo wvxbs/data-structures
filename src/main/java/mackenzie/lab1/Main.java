@@ -16,6 +16,8 @@ public class Main {
             System.out.println("4 para Exercício 4.");
             System.out.println("5 para Exercício 5.");
             System.out.println("6 para Exercício 6.");
+            System.out.println("7 para Exercício 7.");
+            System.out.println("8 para Exercício 8.");
             System.out.print("Escolha uma opção: ");
             escolha = scanner.nextInt();
 
@@ -26,10 +28,11 @@ public class Main {
                 case 4 -> Ex4.executar();
                 case 5 -> Ex5.executar();
                 case 6 -> Ex6.executar();
+                case 7 -> Ex7.executar();
+                case 8 -> Ex8.executar();
                 case 0 -> System.out.println("Saindo...");
                 default -> System.out.println("Opção inválida.");
             }
-
         };
 
         scanner.close();
