@@ -17,6 +17,7 @@ public class Main {
 
             switch (escolha) {
                 case 1 -> Ex1.executar();
+                case 2 -> Ex2.executar();
                 case 0 -> System.out.println("Saindo...");
                 default -> System.out.println("Opção inválida.");
             }
