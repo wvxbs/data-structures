@@ -12,12 +12,14 @@ public class Main {
             System.out.println("\n=== Lista de Exercícios ===");
             System.out.println("1 para Exercício 1.");
             System.out.println("2 para Exercício 2.");
+            System.out.println("3 para Exercício 3.");
             System.out.print("Escolha uma opção: ");
             escolha = scanner.nextInt();
 
             switch (escolha) {
                 case 1 -> Ex1.executar();
                 case 2 -> Ex2.executar();
+                case 3 -> Ex3.executar();
                 case 0 -> System.out.println("Saindo...");
                 default -> System.out.println("Opção inválida.");
             }
