@@ -1,3 +1,6 @@
+//Gabriel Ferreira
+//RA: 10442043
+
 package mackenzie.lab1b;
 
 import mackenzie.lab1b.src.*;
